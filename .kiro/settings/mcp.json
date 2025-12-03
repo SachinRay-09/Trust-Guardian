@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "trust-guardian-analyzer": {
+      "command": "node",
+      "args": ["./mcp-server/analyzer-server.js"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": ["analyze_content", "batch_analyze"]
+    }
+  }
+}
